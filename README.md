@@ -18,7 +18,7 @@ Write 5–8 lines explaining the assigned project.
 
 Example structure:
 
-- **Domain:** [Urban Mobility / IPL Matchday / Weather / etc.]
+- **Domain:** OTT & Music Engagement Analytics (Media & Entertainment)
 - **Core engineering problem:** [What raw data needs to become trusted insight?]
 - **Main pipeline:** Raw Sources → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation
 - **Final outcome:** GitHub repo, Databricks notebooks, Gold outputs, Power BI dashboard, streaming simulation, final demo.
