@@ -26,8 +26,8 @@ Set up the project repository and establish the project foundation. Define the p
 
 ## 3. Key Decisions
 
-- [Decision 1]
-- [Decision 2]
+- Assigned responsibilities among team members for Week 1 documentation.
+- Agreed to maintain all project code and documentation through the shared GitHub repository with regular commits.
 
 ---
 
@@ -60,5 +60,7 @@ Set up the project repository and establish the project foundation. Define the p
 
 ## 7. Next Week Preparation
 
-- [Action]
-- [Action]
+- Prepare the data dictionary.
+- Document synthetic data assumptions.
+- Create the synthetic data generator.
+- Generate and upload sample raw datasets.
