@@ -1,8 +1,8 @@
 # Problem Charter
 
 **Week:** 1  
-**Owner(s):** Deekshitha Rathod, R.Sanjana, Spriha Reddy
-**Project:** Bingemetrics ott music engagement analytics
+**Owner(s):** Deekshitha Rathod, R.Sanjana, Spriha Reddy  
+**Project:** Bingemetrics ott music engagement analytics  
 
 ---
 
@@ -17,20 +17,23 @@ What real-world process or operation does this project represent?
 It represents the data engineering workflow used by OTT and music streaming platforms to process user activity and generate reliable business insights.
 
 What kinds of data are generated?
-Playback session data (plays, watch duration, completion, skips)
-Content metadata (title, genre, language, duration)
-User profile information
-Subscription details
-Live play event data (play, pause, skip, complete)
+
+- Playback session data (plays, watch duration, completion, skips)
+- Content metadata (title, genre, language, duration)
+- User profile information
+- Subscription details
+- Live play event data (play, pause, skip, complete)
+
 Why is raw data not enough?
 
 Raw data may contain duplicate sessions, invalid durations, missing content references, inconsistent formats, malformed records, and schema changes. Without cleaning and validation, business metrics such as watch time, completion rate, and churn analysis would be inaccurate.
 
 Who would use the final dashboard or metrics?
-Content Strategy Team to analyze popular content and genres.
-Audience Growth Team to study user engagement and viewing behavior.
-Subscription Management Team to identify churn risks and customer retention trends.
-Product and Data Teams to access trusted, decision-ready metrics for reporting.
+
+- Content Strategy Team to analyze popular content and genres
+- Audience Growth Team to study user engagement and viewing behavior
+- Subscription Management Team to identify churn risks and customer retention trends
+- Product and Data Teams to access trusted, decision-ready metrics for reporting
 
 ---
 
