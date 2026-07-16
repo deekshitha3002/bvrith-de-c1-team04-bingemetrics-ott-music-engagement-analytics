@@ -1,23 +1,26 @@
-# Week 01 Log — [Sprint Name]
+# Week 01 Log — Project Framing & Repository Setup
 
 **Week:** 1  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Date range:** 10 July 2026 – 16 July 2026  
+**Team:** Team 04  
+**Project:** BingeMetrics – OTT & Music Engagement Analytics
 
 ---
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+Set up the project repository and establish the project foundation. Define the problem statement, project scope, stakeholders, and documentation required for the upcoming development sprints.
 
 ---
 
 ## 2. Work Completed
 
 | Task | Owner | Status | Evidence |
-|---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+|------|-------|--------|----------|
+| Created GitHub repository | Team | Done | GitHub repository |
+| Updated README with project overview | Team | Done | README.md |
+| Completed Problem Charter | Team | Done | docs/problem_charter.md |
+| Defined project scope and stakeholders | Team | Done | Problem Charter |
 
 ---
 
@@ -31,27 +34,27 @@ Write the goal for this week in 2–3 lines.
 ## 4. Blockers / Risks
 
 | Blocker | Impact | Help Needed |
-|---|---|---|
-| [Blocker] | [Impact] | [Help needed] |
+|----------|--------|-------------|
+| None | None | None |
 
 ---
 
 ## 5. Evidence Added to GitHub
 
-- [File updated]
-- [Screenshot added]
-- [Notebook updated]
+- README.md updated
+- docs/problem_charter.md created
+- Initial project repository structure committed
 
 ---
 
 ## 6. AI Transparency Note
 
 | Question | Response |
-|---|---|
-| Where AI helped | [Explain] |
-| What we changed after AI suggestion | [Explain] |
-| What we verified manually | [Explain] |
-| What we can explain without AI | [Explain] |
+|----------|----------|
+| **Where AI helped** | AI assisted in drafting the Problem Charter, README content, and improving documentation formatting. |
+| **What we changed after AI suggestion** | Reviewed and edited the generated content to match the project requirements and improve clarity. |
+| **What we verified manually** | Verified project objectives, scope, stakeholders, and documentation against the official project brief. |
+| **What we can explain without AI** | The project objective, architecture, data flow, stakeholder requirements, and all documentation prepared during Week 1. |
 
 ---
 
