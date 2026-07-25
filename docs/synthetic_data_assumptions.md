@@ -13,36 +13,37 @@ This project uses synthetic educational data only. It must not be presented as r
 
 ## 2. Domain Assumptions
 
-| Area | Assumption |
-|---|---|
-| Geography / scope | [Example: Hyderabad and nearby regions] |
-| Time period | [Example: July to September 2026] |
-| Source systems | [Example: Two different operational feeds] |
-| Event types | [Example: booking, scan, alert, transaction] |
-| Reference data | [Example: zones, categories, products, venues] |
+| Area              | Assumption                                                                  |
+| ----------------- | --------------------------------------------------------------------------- |
+| Geography / Scope | Fictional global OTT and music streaming platform users                     |
+| Time Period       | January 2025 – December 2025                                                |
+| Source Systems    | Playback sessions, user profiles, content catalog, and subscription records |
+| Event Types       | Play, Pause, Skip, Complete                                                 |
+| Reference Data    | Genres, content types, languages, subscription plans, devices               |
 
 ---
 
 ## 3. Data Volume Assumptions
 
-| File | Approximate Rows | Reason |
-|---|---:|---|
-| `[source_file_1].csv` | [rows] | [reason] |
-| `[source_file_2].csv` | [rows] | [reason] |
-| `[reference_file].csv` | [rows] | [reason] |
-| `[streaming_events].json` | [rows] | [reason] |
+| File                   | Approximate Rows | Reason                                       |
+| ---------------------- | ---------------: | -------------------------------------------- |
+| `sessions.parquet`     |         ~250,000 | Large playback session dataset for analytics |
+| `users.csv`            |          ~40,000 | User profile information                     |
+| `subscriptions.csv`    |          ~55,000 | Subscription details and plan history        |
+| `content_catalog.json` |           ~5,000 | Movies, TV shows, songs, and podcasts        |
+| `play_event.json`      |           Varies | Streaming events used in Week 10 simulation  |
 
 ---
 
 ## 4. Controlled Data Quality Issues
-
-| Issue Type | Approx. Share | Why Include It |
-|---|---:|---|
-| Duplicate IDs | 0.2%–0.5% | Tests uniqueness |
-| Missing values | 1%–3% | Tests completeness |
-| Invalid reference keys | 0.5%–1% | Tests referential integrity |
-| Negative / impossible values | 0.1%–0.5% | Tests range rules |
-| Timestamp inconsistencies | 0.1%–0.3% | Tests chronology |
+| Issue Type                | Approx. Share | Why Include It                     |
+| ------------------------- | ------------: | ---------------------------------- |
+| Duplicate Session IDs     |     0.2%–0.5% | Test duplicate detection           |
+| Missing Values            |         1%–3% | Test completeness checks           |
+| Invalid Content IDs       |       0.5%–1% | Test referential integrity         |
+| Impossible Watch Duration |     0.1%–0.5% | Test validation rules              |
+| Timestamp Inconsistencies |     0.1%–0.3% | Test chronological validation      |
+| Schema Drift (Streaming)  |  Small sample | Test streaming pipeline robustness |
 
 ---
 
