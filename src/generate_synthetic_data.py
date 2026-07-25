@@ -31,7 +31,7 @@ STREAMING_DIR.mkdir(parents=True, exist_ok=True)
 
 def generate_reference_file() -> None:
     """Create a small reference file. Replace fields with project-specific values."""
-    output_path = RAW_DIR / "reference_master.csv"
+    output_path = RAW_DIR / "content_catalog.json"
     rows = [
         {"reference_id": "REF-001", "reference_name": "Sample A", "category": "Category 1"},
         {"reference_id": "REF-002", "reference_name": "Sample B", "category": "Category 2"},
@@ -45,7 +45,7 @@ def generate_reference_file() -> None:
 
 def generate_source_file(row_count: int = 100) -> None:
     """Create a simple raw source file. Replace fields based on assigned project."""
-    output_path = RAW_DIR / "source_events_raw.csv"
+    output_path = RAW_DIR / "sessions.csv"
     start_time = datetime(2026, 7, 3, 9, 0, 0)
 
     fieldnames = ["source_record_id", "reference_id", "event_timestamp", "event_type", "amount", "status"]
@@ -70,7 +70,7 @@ def generate_source_file(row_count: int = 100) -> None:
 
 def generate_streaming_events(batch_number: int = 1, event_count: int = 25) -> None:
     """Create JSON lines file for streaming simulation."""
-    output_path = STREAMING_DIR / f"stream_events_batch_{batch_number:03d}.json"
+    output_path = STREAMING_DIR / "play_event.json"
     start_time = datetime(2026, 7, 3, 18, 0, 0)
 
     with output_path.open("w", encoding="utf-8") as f:
