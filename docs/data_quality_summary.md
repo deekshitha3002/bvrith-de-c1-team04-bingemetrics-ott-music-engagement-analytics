@@ -18,7 +18,7 @@
 | DQ-SES-004 | Duration and playback validation | Major | 249,701 | 0 | Incorrect playback data affects engagement metrics |
 | DQ-SES-005 | Session outcome consistency validation | Major | 249,701 | 0 | Incorrect completion/skip data affects viewing behaviour |
 
-> The rule-failure scorecard shows 10 failures for Content and 225 failures for Subscriptions, while all five Session rules and the Users rule have 0 failures. :contentReference[oaicite:1]{index=1}
+
 
 ---
 
