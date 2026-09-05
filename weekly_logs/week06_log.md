@@ -1,7 +1,7 @@
-# Week 06 Log — [Sprint Name]
+# Week 06 Log — Data Quality Checks
 
 **Week:** 6  
-**Date range:** [Add dates]  
+**Date range:** 31/8/2026 - 6/9/2026  
 **Team:** [Team name / number]  
 **Project:** [Project title]
 
@@ -9,7 +9,9 @@
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+## 1. Sprint Goal
+
+Implement and validate the Week 6 Data Quality checks for the BingeMetrics project, ensuring that Candidate data is properly classified into Trusted and Quarantine tables based on the approved DQ rules.
 
 ---
 
