@@ -1,15 +1,15 @@
-# Week 05 Log — [Sprint Name]
+# Week 05 Log — Silver Standardization
 
 **Week:** 5  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
+**Date range:** 7/8/2026 - 14/8/2026  
+**Team:** 4  
+**Project:** BingeMetrics – OTT Music Engagement Analytics
 
 ---
 
 ## 1. Sprint Goal
 
-Write the goal for this week in 2–3 lines.
+Silver Standardization - Clean standardized Silver tables
 
 ---
 
@@ -17,14 +17,20 @@ Write the goal for this week in 2–3 lines.
 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+| ----------------------------------- | --------- | -------------------- | ----------------------------------- |
+| Created Silver Users table           | Deekshitha Rathod | Done                 | silver_users           |
+| Created Silver Subscriptions table   | Deekshitha Rathod | Done                 | silver_subscriptions   |
+| Created Silver Sessions table        | Deekshitha Rathod | Done                 | silver_sessions        |
+| Created Silver Content Catalog table | Deekshitha Rathod | Done                 | silver_content_catalog |
+| Verified Silver tables                | Deekshitha Rathod | Done                 | verified tables/screenshots   |
 
 ---
 
 ## 3. Key Decisions
 
-- [Decision 1]
-- [Decision 2]
+- Used the existing Bronze Delta tables as the source for the Silver layer.
+- Removed duplicate records using available business IDs such as user_id, subscription_id, session_id, and content_id.
+- Standardized relevant date, timestamp, status, and flag columns.
 
 ---
 
@@ -32,15 +38,16 @@ Write the goal for this week in 2–3 lines.
 
 | Blocker | Impact | Help Needed |
 |---|---|---|
-| [Blocker] | [Impact] | [Help needed] |
+| Some source columns may have different names or data types | Transformations may need adjustment | Verify source schemas |
+| Optional columns may not exist in every dataset | Some transformations cannot be applied | Schema validation 
 
 ---
 
 ## 5. Evidence Added to GitHub
 
-- [File updated]
-- [Screenshot added]
-- [Notebook updated]
+- Weekly_logs:week05 updated
+- Silver tables Screenshots added
+- Silver_transformations.ipynb Notebook updated
 
 ---
 
@@ -48,14 +55,16 @@ Write the goal for this week in 2–3 lines.
 
 | Question | Response |
 |---|---|
-| Where AI helped | [Explain] |
-| What we changed after AI suggestion | [Explain] |
-| What we verified manually | [Explain] |
-| What we can explain without AI | [Explain] |
+| Where AI helped | AI helped us understand the Bronze-to-Silver data transformation process and suggested suitable data-cleaning steps. |
+| What we changed after AI suggestion | We modified the suggested code to match our project tables, column names, data types, and requirements. |
+| What we verified manually | We checked the transformed data, table schemas, data types, duplicate records, NULL values, and output tables. |
+| What we can explain without AI | We can explain the Bronze-to-Silver flow, data cleaning, standardization, deduplication, transformations, and Delta table creation. |
 
 ---
 
 ## 7. Next Week Preparation
 
-- [Action]
-- [Action]
+- Review and validate the Silver tables with sample records.
+- Identify relationships between the Silver tables.
+- Prepare transformations required for the Gold layer.
+- Start designing analytics-ready Gold tables.
