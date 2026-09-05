@@ -17,7 +17,6 @@ Silver Standardization - Clean standardized Silver tables
 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
-| ----------------------------------- | --------- | -------------------- | ----------------------------------- |
 | Created Silver Users table           | Deekshitha Rathod | Done                 | silver_users           |
 | Created Silver Subscriptions table   | Deekshitha Rathod | Done                 | silver_subscriptions   |
 | Created Silver Sessions table        | Deekshitha Rathod | Done                 | silver_sessions        |
